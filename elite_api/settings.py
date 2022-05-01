@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-v*yny1=v$m@(zux72=flhz&onb(2uty^ey=!(8x%!p!f4$ab)@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'nba',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
